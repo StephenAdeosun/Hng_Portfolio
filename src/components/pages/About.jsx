@@ -1,5 +1,5 @@
 import React from "react";
-import Curtis_Resume from "../../assets/Curtis_Resume.pdf";
+import Stephen_resume from "../../assets/Resume.pdf";
 import styled from "styled-components";
 import about from "../../assets/about.svg";
 import "boxicons";
@@ -23,7 +23,7 @@ function About() {
           </p>
 
           {/* <i class="bx bxs-like bx-fade-down-hover"></i> */}
-          <a href={Curtis_Resume} download="curtis-resume">
+          <a href={Stephen_resume} download="stephen-resume">
             <button data-aos="fade-up">Download My Resume</button>
           </a>
         </AboutDiv>

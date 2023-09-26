@@ -6,7 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "boxicons";
 import ScrollUp from "./ScrollUp";
-import Preloader from "./Preloader";
+// import Preloader from "./Preloader";
 import styled, {ThemeProvider} from "styled-components";
 import {themes} from "./themes/theme";
 
@@ -21,7 +21,6 @@ function App() {
   }, []);
   return (
     <>
-      {loading === false ? (
         <ThemeProvider theme={themes[theme]}>
         <Apps>
           <Router>
@@ -34,9 +33,7 @@ function App() {
           </Router>
         </Apps>
         </ThemeProvider>
-      ) : (
-        <Preloader />
-      )}
+   
     </>
   );
 }

@@ -15,7 +15,7 @@ function Body() {
             <span>
               <ReactRotatingText
                 items={[
-                  "Oyakoya Curtis",
+                  "Stephen Adeosun",
                   "a Web Developer",
                   "a Front-End Developer",
                   "a React Developer",
@@ -29,7 +29,7 @@ function Body() {
           </p>
 
           <a
-            href="https://wa.me/23408032347546?text=HELLO%20CURPRA%20CODE,%20%20PLEASE%20I%20NEED%20WEBSITE%20OR%20WEB-APP%20"
+            href="https://api.whatsapp.com/send/?phone=23407042465683&text=HELLO+STEPHEN+%2C++PLEASE+I+NEED+WEBSITE+OR+WEB-APP+&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ function Body() {
           </a>
           <div className="social-body">
             <a
-              href="https://github.com/CurpraCode"
+              href="https://github.com/StephenAdeosun"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -50,7 +50,7 @@ function Body() {
               ></box-icon>
             </a>
             <a
-              href="https://www.linkedin.com/in/curtis-oyakoya-b70b091b2/"
+              href="https://www.linkedin.com/in/stephen-adeosun-020122250"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,7 +63,7 @@ function Body() {
               ></box-icon>
             </a>
             <a
-              href="https://twitter.com/CurpraCode"
+              href="https://twitter.com/stephenadeosun6"
               target="_blank"
               rel="noopener noreferrer"
             >

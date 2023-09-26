@@ -5,7 +5,7 @@ import { useForm } from "@formspree/react";
 import mail from "../../assets/mail.svg";
 
 function Contact() {
-  const [state, handleSubmit] = useForm("xpzkrgjb");
+  const [state, handleSubmit] = useForm("xoqzgdjk");
   if (state.succeeded) {
     toast.success("Message Sent!");
   }

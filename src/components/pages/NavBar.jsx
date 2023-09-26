@@ -9,7 +9,7 @@ function NavBar({icons, change}) {
       <Nav>
         <h1>
           {" "}
-          <span></span> <a href="/"> CurtisDev</a> <span> </span>{" "}
+          <span></span> <a href="/"> StephDev</a> <span> </span>{" "}
         </h1>
      <div className="btn-toggle">
      <Hamburger />

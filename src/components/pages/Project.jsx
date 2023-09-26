@@ -6,6 +6,13 @@ import portfolio from "../../assets/portfolio.png";
 import cm from "../../assets/cm.png";
 import dataware from "../../assets/dataware.png";
 import airbnb from "../../assets/airbnb.png";
+import intercon from "../../assets/intercon.png";
+import cheappay from "../../assets/cheappay.png";
+import dnd from "../../assets/dnd.png";
+import altschool from "../../assets/altschool.png";
+import calculator from "../../assets/calculator.png";
+import text from "../../assets/text.png";
+import store from "../../assets/store.png";
 
 function Project() {
   return (
@@ -28,6 +35,21 @@ function Project() {
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
+          <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={intercon} alt="calc" />
+            </div>
+            <div className="detail-card">
+              <h2>INTERCON</h2>
+              <p> 
+                This application was built with React, Redux, Chakra-UI, TypeScript, it provides
+                Holistic Solutions to Unleash Business’s Full Potential
+              </p>
+            </div>
+            <a href="https://intercon-xi.vercel.app/">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
 
           <InnerBox data-aos="zoom-in">
             <div>
@@ -45,26 +67,26 @@ function Project() {
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
+         
+        </Box>
 
-          <InnerBox data-aos="zoom-in">
+        <Box>
+         <InnerBox data-aos="zoom-in">
             <div>
-              <img src={portfolio} alt="curtis" />
+              <img src={cheappay} alt="curtis" />
             </div>
             <div className="detail-card">
-              <h2>CurtisDev</h2>
+              <h2>CHEAPPAY APP</h2>
               <p>
-                This is a portfolio website of a web developer built with
-                react.js, styled-components
+                This is an ecommerce website  built with
+                Reactjs, Nextjs, Tailwind CSS
               </p>
             </div>
-            <a href="https://curtisdev.netlify.app/">
+            <a href="https://typescript-chakra-ui-pages.vercel.app/">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
-         
-        </Box>
-        <Box>
-        <InnerBox data-aos="zoom-in">
+          <InnerBox data-aos="zoom-in">
             <div>
               <img src={airbnb} alt="curtis" />
             </div>
@@ -79,7 +101,9 @@ function Project() {
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
-        <InnerBox data-aos="zoom-in">
+
+        
+          <InnerBox data-aos="zoom-in">
             <div>
               <img src={dataware} alt="curtis" />
             </div>
@@ -94,6 +118,47 @@ function Project() {
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>
+
+         
+         
+        </Box>
+        <Box>
+     
+        <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={altschool} alt="curtis" />
+            </div>
+            <div className="detail-card">
+              <h2>ALTSCHOOL CLONE</h2>
+              <p>
+                This is a School website  built with
+                Reactjs, Nextjs, Tailwind CSS
+              </p>
+            </div>
+            <a href="https://steph-altschool-clone.netlify.app/">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
+
+
+        <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={dnd} alt="curtis" />
+            </div>
+            <div className="detail-card">
+              <h2>DnD IMAGE GALLERY</h2>
+              <p>
+                This is a Drag and drop website  built with
+                ReactJs,TypeScript and Chakra UI
+              </p>
+            </div>
+            <a href="https://drag-drop-image-gallery.vercel.app/">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
+
+
+
           <InnerBox data-aos="zoom-in">
             <div>
               <img src={cm} alt="curtis" />
@@ -106,6 +171,62 @@ function Project() {
               </p>
             </div>
             <a href="https://movie-webapp.vercel.app/">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
+        </Box>
+
+
+        <Box>
+     
+        <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={store} alt="curtis" />
+            </div>
+            <div className="detail-card">
+              <h2>Clothing Store</h2>
+              <p>
+                This is a clothing store built with
+                Vue Js, Tailwind CSS
+              </p>
+            </div>
+            <a href="https://edu-tams-clothing-store-admin.vercel.app/">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
+
+
+        <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={text} alt="curtis" />
+            </div>
+            <div className="detail-card">
+              <h2>TEXT2SPEECH_CONVERTER</h2>
+              <p>
+                This is a Drag and drop website  built with
+                HTML,CSS,Javascript
+              </p>
+            </div>
+            <a href="https://text-to-speech-converter01.netlify.app/">
+              <button>CLICK TO VIEW</button>
+            </a>
+          </InnerBox>
+
+
+
+          <InnerBox data-aos="zoom-in">
+            <div>
+              <img src={calculator} alt="curtis" />
+            </div>
+            <div className="detail-card">
+              <h2>CurpraMovie</h2>
+              <p>
+                This is calculator built with
+                HTML,CSS,Javascript
+               
+              </p>
+            </div>
+            <a href="https://neumorphism-ui-design-calculator.netlify.app/">
               <button>CLICK TO VIEW</button>
             </a>
           </InnerBox>

@@ -7,11 +7,11 @@ function Footer() {
     <FooterPage>
       <FooterDiv>
         <div>
-          <h2>CurtisDev</h2>
+          <h2>StephDev</h2>
           <p>
             {" "}
             <a
-              href="https://web.facebook.com/curtis.ayoposi.3/"
+              href="https://web.facebook.com/profile.php?id=100082685363691/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -35,7 +35,7 @@ function Footer() {
               ></box-icon>
             </a>
             <a
-              href="https://twitter.com/CurpraCode"
+              href="https://twitter.com/stephenadeosun6"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -47,7 +47,7 @@ function Footer() {
               ></box-icon>
             </a>
             <a
-              href="https://www.instagram.com/curpra_code/"
+              href="https://www.instagram.com/stephendev001/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -59,7 +59,7 @@ function Footer() {
               ></box-icon>
             </a>{" "}
           </p>
-          <P>Design and Developed by Curtis</P>
+          <P>Design and Developed by Stephen</P>
         </div>
       </FooterDiv>
     </FooterPage>
